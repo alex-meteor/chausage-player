@@ -5,8 +5,8 @@ var io = require('socket.io-client');
 var uri = process.argv[2] || 'spotify:track:6tdp8sdXrXlPV6AZZN2PE8';
 
 // Spotify credentials...
-var username = 'jigglebilly';
-var password = 'M*nkey00';
+var username = 'YOUR USERNAME';
+var password = 'YOUR PASSWORD';
 var firstPlay = true;
 
 Spotify.login(username, password, function (err, spotify) {
